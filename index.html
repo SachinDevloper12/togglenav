@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title></title>
+</head>
+<style type="text/css">
+	*{ 
+
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+
+
+	 }
+.rightnav {
+
+text-align: right;
+
+}
+
+ul li{
+display: inline-block;
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+font-weight: bolder;
+
+}
+ul li a{
+
+	color: black;
+}
+.nav{
+background: linear-gradient(red,yellow,orange,green);
+width: 100%;
+height: vh;
+}
+.nav img{
+	max-width: 68px;
+float: left;
+margin-left: 20px;
+background: black;
+border-radius: 20%;
+align-items: center;
+margin-top: px;
+}
+#icon{
+	font-size: 55px;
+	display: none;
+}
+.shownavbar{
+	display: block;
+}
+body{
+	background: orangered;
+}
+
+@media(max-width: 900px){
+.nav{
+
+	
+}
+.nav{
+background: linear-gradient(red,yellow,orange,green);
+width: 100%;
+
+}
+
+#icon{
+	
+	align-items: center;
+	display: block;
+	margin-right: 20px;
+	margin-top: 0px;
+	
+	
+}
+ul li{
+	margin-top: 50px;
+	padding-top: 50px;
+	display: block;
+	text-align: center;
+	margin: 30px;
+	padding: 20px;
+	width: ;
+
+
+}
+ul li:hover{
+	
+
+	background:goldenrod;
+
+
+}
+ul{
+	display: none;
+}
+.active{
+background:darkred;
+
+
+}
+
+
+
+</style>
+<body >
+
+<div class="nav">
+	<img src="C:\Users\Admin\Desktop\unnamed.png" id="center">
+	
+	<div class="rightnav">
+		<i class="fa fa-bars" id="icon"  style="font-size: px;"  onclick="myfunction()"></i>
+		<ul id="ulandli">
+			
+<li class="active"><a href="w">Home</a></li>
+<li><a href="w">About us</a></li>
+<li><a href="w">contact</a></li>
+<li><a href="w">Servies</a></li>
+
+
+
+
+
+
+		</ul>
+	</div>
+<div>
+	<script type="text/javascript">
+		var a=document.getElementById('ulandli');
+function myfunction(){
+
+a.classList.toggle('shownavbar')
+
+
+}
+	</script>
+
+</body>
+</html>
